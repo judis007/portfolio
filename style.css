@@ -89,3 +89,24 @@ ul li a:hover{
     src: url(gta.ttf);
 }
 
+@media only screen and (max-width: 768px) {
+    header ul{
+        display: none;
+    }
+
+    header{
+        display: block;
+        text-align: center;
+    }
+
+    .banner h1{
+        font-size: 150px;
+        margin-left: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 670px) {
+    .banner h1{
+        margin-left: 2px;
+    }
+}
