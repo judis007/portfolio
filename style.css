@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;900&display=swap');
 
 *{
     margin:0;
@@ -31,6 +31,13 @@ ul li a{
     font-family: 'Poppins', sans-serif;
     color: black;
     text-transform: uppercase;
+}
+
+ul li a.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 ul li a:hover{
@@ -67,21 +74,22 @@ ul li a:hover{
 
 .banner img{
     border-radius: 12px;
-    margin-top: 25px;
+    margin:auto;
 }
 
 .banner{
     display: grid;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .banner h1{
     font-family: poppins;
     font-size: 200px;
     font-weight: 900;
-    margin-top: -250px;
-    margin-left: -100px;
+    margin-top: -150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @font-face{
@@ -90,8 +98,9 @@ ul li a:hover{
 }
 
 @media only screen and (max-width: 768px) {
-    header ul{
-        display: none;
+    header ul li{
+        display: block;
+        margin: auto;
     }
 
     header{
@@ -100,13 +109,6 @@ ul li a:hover{
     }
 
     .banner h1{
-        font-size: 150px;
-        margin-left: 1px;
+        font-size: 125px;
     }
   }
-
-  @media only screen and (max-width: 670px) {
-    .banner h1{
-        margin-left: 2px;
-    }
-}
