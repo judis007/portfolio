@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -94,7 +95,15 @@ ul li a:hover{
 
 @font-face{
     font-family: 'Pricedown';
-    src: url(gta.ttf);
+    src: url(../fonts/gta.ttf);
+}
+
+.container{
+    margin-top: 50px;
+}
+
+h5{
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -112,3 +121,6 @@ ul li a:hover{
         font-size: 125px;
     }
   }
+
+
+
