@@ -84,14 +84,6 @@ ul li a:hover{
     height: 80vh;
 }
 
-.banner h1{
-    font-family: poppins;
-    font-size: 200px;
-    font-weight: 900;
-    margin-top: -150px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 @font-face{
     font-family: 'Pricedown';
