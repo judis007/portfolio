@@ -13,10 +13,11 @@ header{
     margin-top: 25px;
 }
 
-header h1{
+h1{
     font-family: 'Pricedown';
     font-size: 50px;
 }
+
 
 header ul{
     list-style-type: none;
@@ -102,7 +103,7 @@ h5{
     header ul li{
         display: block;
         margin: auto;
-    }
+}
 
     header{
         display: block;
