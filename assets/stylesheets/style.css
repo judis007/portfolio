@@ -64,6 +64,11 @@ ul li a:hover{
     transition-duration: 0.5s;
 }
 
+.fa-medium:hover{
+    color: darkslategray;
+    transition-duration: 0.5s;
+}
+
 .fa-linkedin:hover{
     color: #0077B5;
     transition-duration: 0.5s;
